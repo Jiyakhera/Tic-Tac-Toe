@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="tictac.css">
+</head>
+<body>
+   
+    <div class="heading">
+        <h1 id="heading">TIC TAC TOE</h1>
+    </div>
+        <div class="popup">
+            <form>
+             <h3 class="form-ques">Who do you want to play first?</h3>
+                <div class="options">
+                     <div class="youPLay">  
+                        <button class="youplay">You</button>
+                     </div>
+                     <div class="compPLay"> 
+                        <button class="compplay">Computer</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    
+    <div class="boxes hide" >
+        <div class="container"></div>
+        <div class="container" ></div>
+        <div class="container"></div>
+        <div class="container"></div>
+        <div class="container"></div>
+        <div class="container"></div>
+        <div class="container"></div>
+        <div class="container"></div>
+        <div class="container"></div>
+    </div>
+    <div class="line">
+    <div class="Msg hide" id="winMsg">
+       </div>
+    <div class="buttons">
+        <div class="reset button">
+            <button id="reset" class="hide">Reset Game</button>
+        </div>
+        <div class="newGame button">
+            <button id="newGame" class="hide">New Game</button>
+        </div>
+    </div>
+</div>
+    <script src="tictac.js"></script>
+</body>
+</html>
